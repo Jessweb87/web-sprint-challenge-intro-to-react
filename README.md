@@ -83,6 +83,10 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”. Some advantages of react js are it helps in creating impressive web apps that require minimal effort and coding, uses the virtual DOM, and reuseable components.
 1. Describe component state.
+setState() schedules an update to a component’s state object. When state changes, the component responds by re-rendering.
 1. Describe props.
+props (short for “properties”). props get passed to the component (similar to function parameters)
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+Side effects are basically anything that affects something outside of the scope of the current function that's being executed. The Effect Hook lets you perform side effects in function components.
